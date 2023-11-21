@@ -7,10 +7,7 @@ body{
 
 }
 
-body{
-    font-family: montserrat;
 
-}
 
 nav ul{
     display: flex;
@@ -49,6 +46,8 @@ nav {
             background: rgba(0, 0, 0, 0.5);
             box-sizing: border-box;
             z-index: -1; 
+            overflow: hidden;
+            border-radius: 20px;
         }
 
         #content {
@@ -58,9 +57,51 @@ nav {
             text-align: center;
             padding: 150px;
         }
+        
 
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.program-paragraph {
+    font-size: 18px;
+    margin-top: 15px;
+}
 
-body {
-    font-family: Arial, sans-serif;
+.phd-style{
+    background-color: #f0f0f0;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 23%; 
+    text-align: center;
+}
+.Mphil-program-stye{
+    background-color: #f0f0f0;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 24%; 
+    text-align: center;
+}
+.shortc-program{
+    background-color: #f0f0f0;
+    padding: 32px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 24%; 
+    text-align: center;
+}
+.undergraduate-program{
+    background-color: #f0f0f0;
+    padding: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 24%; 
+    text-align: center;
 }
 
