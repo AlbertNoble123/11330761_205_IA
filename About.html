@@ -1,82 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UG Computer Science Department</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: white;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department - University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-    .container {
-      width: 100%;
-      background-color: #f4f4f4;
-      padding: 20px;
-      box-sizing: border-box;
-    }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
 
-    .navigation {
-      text-align: right;
-    }
+        header img {
+            max-width: 100%;
+            height: auto;
+            max-height: 80px; /* Set the maximum height for the logo */
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
 
-    .navigation a {
-      margin-left: 20px;
-      text-decoration: none;
-      color: #333
-      font-weight: bold;
-    }
-    .logo {
-      width: 250px;
-      background-color: blue;
-      
-      
-    }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
 
-    .welcome-text {
-      font-size: 24px;
-      margin-bottom: 10px  }
-      
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-    h1 {
-      color: #333;
-      text-align: center;
-    }
-    .logo-container{
-      background-color:#333;
-    }
-  </style>
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        li a:hover {
+            color: #3498db;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .text-beside-image {
+            flex: 1;
+            margin: 10px;
+        }
+
+        .video-background {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 400px; /* Adjust the height as needed */
+        }
+
+        .video-background video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="navigation">
-      <a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\UG Computer Science Department.Html">Home</a>
-      <a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Faculty.html">Faculty</a>
-      <a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Reseach Groups.html">Research Groups</a>
-      <a href="About.html">About</a>
-    </div>
-    <input data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" class="form-control search-input" placeholder="Search..." aria-label="Search">
-  </div>
- 
-   <div class="logo-container">
-    <div class="welcome-text"></div>
-    <h1></h1>
-    <img src="C:\Users\Albert Tetteh\OneDrive - University of Ghana\Desktop\GitHub\11330761_205_IA\pictures\download-80.jpg" alt="Department logo" title="" class="logo">
-    <div>
-        <h1 class="text-white">About Us</h1>
-        <p>Welcome
-         This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.
-         
-         The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team. The course also provides the platform for further study or research through exposure to established and emerging technologies and methods, and to active fields of research in Computer Science.
-         
-         The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
-        </div>
-</div>
-  
 
-  
+    <header>
+        <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" alt="School Logo">
+        <h1>ABOUT US</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Home.Html">Home</a></li>
+            <li><a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Event.html">Event</a></li>
+            <li><a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Faculty.html">Faculty</a></li>
+            <li><a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Research Groups.html">Research</a></li>
+            <li><a href="C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Welcome to the Computer Science Department</h2>
+        <p>
+            Explore the exciting world of computer science at our university. Our department is dedicated to providing high-quality education, conducting cutting-edge research, and preparing students for successful careers in the field.
+        </p>
+
+        <h2>Programs</h2>
+        <p>
+            We offer a range of undergraduate and graduate programs in computer science, providing students with a solid foundation in theory and practical skills. Our curriculum is designed to meet the demands of the rapidly evolving technology industry.
+        </p>
+
+        <h2>Faculty</h2>
+        <p>
+            Meet our experienced and knowledgeable faculty members who are passionate about teaching and research. They bring a wealth of industry and academic experience to the classroom, ensuring that students receive a well-rounded education.
+        </p>
+
+        <h2>Research</h2>
+        <p>
+            Our department is at the forefront of innovative research in various areas of computer science. Explore our research projects, publications, and collaborations with industry partners that contribute to advancements in the field.
+        </p>
+    </section>
+
+    <section class="gallery">
+        <div class="text-beside-image">
+            <h2>Get To Know Us</h2>
+            <p>Things get interesting because you are eager to know more, or you become eager to know more because it is interesting?</p>
+        </div>
+        <img src="https://dcs.ug.edu.gh/img/gallery/g4.jpg" alt="Gallery Image 1">
+        <img src="https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-42-37.jpg" alt="Gallery Image 2">
+        <img src="https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-45-13%202.jpg" alt="Gallery Image 3">
+    </section>
+
+    <section>
+        <h2>Our Organization</h2>
+        <p>
+            The University of Ghana is one of Africa's most preeminent public universities. Our impact on individuals, our region, and the world is profound. Whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research, UG educates more than 38,000 students annually, with approximately 2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.
+        </p>
+    </section>
+
+    <section>
+        <h2>Our Community</h2>
+        <p>
+            If you are inspired by a big challenge, you've come to the right place! The computer science community at the University of Ghana encourages its people to be vibrant and brave in taking on new challenges that push boundaries beyond imagination.
+        </p>
+    </section>
+
+    <section>
+        <h2>Distance Learning</h2>
+        <p>
+            Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and personal interaction with professors through a suite of online delivery options, customizing your degree to fit your schedule. Our online classroom maintains the same level of academic rigor while providing students with more ways of learning.
+        </p>
+    </section>
+
+    <section>
+        <h2>Building Our Future</h2>
+        <p>
+            So what defines our students, faculty, and community members? Above all, it's our belief in the infinite possibilities and our unshakable optimism. It's a connection to others near and far. A hunger for socio-economic transformation that pushes us to tackle challenges and pursue progress. It's the conviction that together we can create a world of good. Join us on the journey.
+        </p>
+    </section>
+
+    <section class="video-background">
+        <video autoplay muted loop>
+            <source src="https://dcs.ug.edu.gh/video-bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        &copy; 2023 Computer Science Department, University. All rights reserved.
+    </footer>
+
 </body>
 </html>
- 
