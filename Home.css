@@ -23,7 +23,7 @@ nav  a{
     text-decoration: none;
 
 }
-a.active,a:hover{
+a:hover{
     background:#1bf7ff ;
     transition: .5s;
 }
@@ -105,3 +105,9 @@ nav {
     text-align: center;
 }
 
+.events-image{
+    width: 50%;
+    padding: 150px;
+    bottom: 0;
+    padding-top: 1500px;
+}
