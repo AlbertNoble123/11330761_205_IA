@@ -27,28 +27,23 @@ Open the project in your preferred code editor.
 Launch the website:
 
 Open the index.html file in a web browser.
-Project Author
-Author: [Your Name]
-Student ID: [Your Student ID]
-Screenshots
+# Project Author
+Author: [Albert Tetteh]
+Student ID: [11330761]
+
 Below are screenshots of each page of the website:
 
-### Home Page
-![ Home Page] ( )
+# Home Page
+![Home page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (4).png)
 
-# Event Page
-Programs Page
+# Event page
+![event page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (2).png)
+! [Event page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (3).png)
 
-Faculty Page
-Faculty Page
+# Contact page
+![contact page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (7).png)
 
-Research Page
-Research Page
-
-Contact Page
-Contact Page
-
-Lessons Learned
+# Lessons Learned
 Throughout the development of this project, I have gained valuable experience in:
 
 Web development and design principles.
