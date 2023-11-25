@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: wheat;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.question {
+    color: #333;
+}
+
+.answer {
+    color: #666;
+}
+
+/* Style for the search bar */
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+<script>
+    // JavaScript for search functionality
+document.getElementById('searchInput').addEventListener('input', function () {
+    var searchValue = this.value.toLowerCase();
+    var faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(function (item) {
+        var question = item.querySelector('.question').textContent.toLowerCase();
+        var answer = item.querySelector('.answer').textContent.toLowerCase();
+
+        if (question.includes(searchValue) || answer.includes(searchValue)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+});
+
+</script>
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="https://dcs.ug.edu.gh/img/comScience_logo.png"></h1>
+    </header>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+            <h3 class="question">Q: What undergraduate programs do you offer?</h3>
+            <p class="answer">A: We offer a Bachelor of Science in Computer Science degree.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Q: How can I apply for admission to the Computer Science Department?</h3>
+            <p class="answer">A: Admission details can be found on our Admissions page. Please visit the Admissions section for more information.</p>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+            <h3 class="question">Q: Are there any research opportunities for students?</h3>
+            <p class="answer">A: Yes, we provide various research opportunities for both undergraduate and graduate students. Check our Research section for more details.</p>
+        </div>
+
+        <!-- Add more FAQ items as needed -->
+
+    </section>
+
+    
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search FAQ">
+    </div>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:csdept@example.com">csdept@example.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
