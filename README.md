@@ -4,29 +4,46 @@
 #### Welcome to the Computer Science Department Website! This website serves as a comprehensive platform for information about our department, programs, faculty, research, and more. Whether you are a current student, prospective student, or just interested in the world of computer science, this website provides a gateway to explore and learn about the exciting opportunities offered by our department.
 #### Our Computer Science Department is a thriving community of passionate individuals dedicated to advancing knowledge and fostering innovation in the field of computer science. We offer a wide range of programs, cutting-edge research opportunities, and a team of experienced and accomplished faculty members.Our website is designed with user experience in mind. Navigate seamlessly through the intuitive interface to access the information you need effortlessly. Whether you are seeking program details, faculty profiles, or the latest research updates, our website provides a user-friendly experience.Thank you.
  # Purpose of the Website
-The primary objectives of the website are:
+#### The primary objectives of the website are:
+#### The website is designed to be a go-to resource for information about our Computer Science Department. It provides details about academic programs, faculty members, ongoing research initiatives, and other vital aspects of our department's ecosystem.Whether you're a current student, a prospective student considering joining our community, or simply someone intrigued by the vast realm of computer science, this website aims to provide easy access to relevant information. It encourages engagement and exploration, allowing users to delve into the exciting opportunities offered by our department.
 
-To provide information about the Computer Science Department at the University of Ghana.
-To showcase our programs, faculty, and research initiatives.
-To create a user-friendly and visually appealing online presence.
 # Clone and Set Up Instructions
+
 Follow these steps to clone and set up the project on your local machine:
 
-# Clone the repository:
+1. **Clone the Repository:**
+    - Open your terminal or command prompt.
+    - Navigate to the directory where you want to clone the repository.
+    - Use the following command to clone the repository:
 
-bash
-Copy code
-git clone https://github.com/AlbertNoble123/11330761_205_IA
-Navigate to the project directory:
+    ```bash
+    git clone https://github.com/Albertnoble123/11330761_IA.git
+    ```
 
-bash
-Copy code
-cd computer-science-website
-Open the project in your preferred code editor.
+2. **Navigate to the Project Directory:**
+    - Use the `cd` command to navigate into the project directory:
 
-Launch the website:
+    ```bash
+    cd your-repository
+    ```
 
-Open the index.html file in a web browser.
+Now, you have successfully cloned the repository to your local machine. You can start working with the project files.
+
+3. **Open the Project in Your Code Editor:**
+    - Use your preferred code editor to open the project. For example:
+
+    ```bash
+    code .
+    ```
+
+    Replace `code` with the command used to open your code editor from the command line.
+
+
+5. **Access the Website:**
+    - Open your web browser and go to [http://localhost:8000](http://localhost:8000) or the appropriate address based on your project configuration.
+
+Now you're ready to explore and contribute to the project locally!
+
 # Project Author
 Author: [Albert Tetteh]
 Student ID: [11330761]
@@ -34,7 +51,6 @@ Student ID: [11330761]
 Below are screenshots of each page of the website:
 
 # Home Page
-![Home page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (4).png)
 <img src="Screenshot (4).png">
 
 # Event page
