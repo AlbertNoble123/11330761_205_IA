@@ -35,13 +35,18 @@ Below are screenshots of each page of the website:
 
 # Home Page
 ![Home page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (4).png)
+<img src="Screenshot (4).png">
 
 # Event page
-![event page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (2).png)
-! [Event page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (3).png)
+<img src="Screenshot (2).png">
+<img src="Screenshot (3).png">
 
 # Contact page
-![contact page](C:\Users\Albert Tetteh\Documents\GitHub\11330761_205_IA\Screenshot (7).png)
+<img src="Screenshot (7).png">
+
+# FAQ page
+<img src="Screenshot (9).png">
+
 
 # Lessons Learned
 Throughout the development of this project, I have gained valuable experience in:
