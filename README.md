@@ -1,8 +1,8 @@
-# Unofficial UGCS Department website
+# Unofficial Computer Science  Department website
+## Introduction
 
-# Introduction
-Welcome to the Computer Science Department Website! This website serves as a comprehensive platform for information about our department, programs, faculty, research, and more. Whether you are a current student, prospective student, or just interested in the world of computer science, this website provides a gateway to explore and learn about the exciting opportunities offered by our department.
-
+#### Welcome to the Computer Science Department Website! This website serves as a comprehensive platform for information about our department, programs, faculty, research, and more. Whether you are a current student, prospective student, or just interested in the world of computer science, this website provides a gateway to explore and learn about the exciting opportunities offered by our department.
+#### Our Computer Science Department is a thriving community of passionate individuals dedicated to advancing knowledge and fostering innovation in the field of computer science. We offer a wide range of programs, cutting-edge research opportunities, and a team of experienced and accomplished faculty members.Our website is designed with user experience in mind. Navigate seamlessly through the intuitive interface to access the information you need effortlessly. Whether you are seeking program details, faculty profiles, or the latest research updates, our website provides a user-friendly experience.Thank you.
  # Purpose of the Website
 The primary objectives of the website are:
 
